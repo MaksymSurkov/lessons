@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+h1{
+	color: darkred;
+}
+li>a,
+.link {
+	color: blue;
+}
+div.general{
+	color: brown;
+}
+.appear.p__1{
+	color: darkslategray;
+}
+.p__2,.drive{
+	color: indigo;
+}
+.audio p{
+	color: sienna;
+}
+.drive .drive-p__3,
+.appear,
+.end__title+p {
+	color: red;
+}
+.list-contacts *{
+	color: red;
+}
+.end__title~p{
+	color: darkcyan;
+}
+[id^="d"] {
+	color: chartreuse;
+}
+.contact>h2{
+	color: darkgoldenrod;
+}
+#d-7 {
+	color: darkgreen;
+}
+#d-6+p {
+	color: darkorange;
+}
+[title~="подсказка"]{
+	color: darkred;
+}
+[class|="p"]{
+	color: deeppink;
+}
+div.inside,.battery>p {
+	color: deepskyblue;
+} /*здесь хотел поэксперементировать с селекторами и их комбинациями, задать цвет всем тегам Р первого уровня внутри элементов div 
+с классом inside и элементов с классом battery.
+Я не понимаю разницы (если она есть) в записи строчка 51 и если это был бы перечень как например в строчке 22. Элементы из строчки 22 у меня
+были написаны отдельно как каждый из примеров. Я их обеденил в перечень так как имеют одинаковые значения свойства color.
+В общем чем запись в строчке 51 отличается от обычного перечня например как в строчке 22? Может я запутался и сделал что-то неправильно? :))
+Помогите с ответом пожалуйста.
+Спасибо!*/

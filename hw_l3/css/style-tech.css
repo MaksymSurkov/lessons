@@ -1,0 +1,11 @@
+@import url(reset.css);
+
+[href="index.html"]{
+	color: blue;
+}
+[class$="title"]{
+	color: red;
+}
+[class*="__list"]{
+	color: darkgreen;
+}
